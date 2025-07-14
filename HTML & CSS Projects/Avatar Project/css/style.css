@@ -1,0 +1,97 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    padding : 0;
+    margin : 0;
+  }
+ body{
+    background-image: linear-gradient(to right , #01022d , #000);
+    height : 100vh;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+ }
+ .container{
+    background-image: 
+    linear-gradient(to right ,  #01022de5 30% , #00000088),
+    url("https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg")
+    ;
+width: 100%;
+height : 100%;
+background-repeat: no-repeat;
+background-size: 100vw 100%;
+ }
+ .container:hover{
+    background-image: 
+    linear-gradient(to right ,  #01022de5 30% , transparent),
+    url("https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg")
+    ;
+    background-position: center;
+width: 100%;
+height : 100%;
+ }
+ header{
+display : flex;
+justify-content: space-between;
+align-items: center;
+padding : 10px;
+ }
+ a{
+   color : white;
+   text-decoration: none ;
+   text-transform: uppercase;
+   font-size: 40px;
+   margin-left: 20px;
+   margin-top: 20px;
+ }
+ ul{
+list-style : none;
+width : 60%;
+display : flex;
+flex-direction: row;
+justify-content: space-evenly;
+color : white;
+font-size: 1px;
+ }
+ ul a{
+border-bottom:3px solid transparent;
+font-size: 20px;
+ }
+ ul a:hover{
+   border-bottom-color : white;
+    }
+    .content{
+   color : white;
+   width : 50%;
+   margin-top: 100px;
+   padding : 30px;
+    }
+    .content h2{
+      font-size: 100px;
+      font-style: italic;
+      font-weight: bold;
+      text-shadow: 10px 3px 1px rgb(47, 19, 206) ;
+      margin-bottom : 30px;
+    }
+    .content p{
+      letter-spacing: 3px;
+      width : 300px;
+      padding : 30px 0;
+      font-weight: bold;
+    }
+    .content button{
+    font-size: 30px;
+    border-radius: 10px;
+    padding : 10px 10px;
+    border : 2px solid transparent;
+    cursor:pointer;
+    margin-top: 20px;
+    }
+    .content button:hover{
+      border-color: white;
+      color : white;
+      background-color: transparent;
+    }
+ 
